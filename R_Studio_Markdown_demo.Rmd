@@ -1,0 +1,50 @@
+---
+title: "R Markdown"
+author: "Barry Bullas"
+date: "20/08/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+## Overview
+R Markdown provides an authoring framework for data science. You can use a single R Markdown file to both
+
+* save and execute code
+* generate high quality reports that can be shared with an audience
+
+
+R Markdown documents are fully reproducible and support dozens of static and dynamic output formats.
+
+## Installation
+Like the rest of R, R Markdown is free and open source. You can install the R Markdown package from CRAN with:
+
+
+```
+install.packages("rmarkdown")
+```
+
+## Get Started
+The links to the left provide a quick tour of R Markdown. The links at the top provide examples of R Markdown documents, as well as an in depth discussion of various R Markdown topics.
+
+You may also find the following resources helpful:
+
+* [The R Markdown Cheatsheet ⧉>](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+* [The R Markdown Reference Guide ⧉](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+***
+# How It Works
+This is an R Markdown file, a plain text file that has the extension .Rmd. You can open a copy [here ⧉ ](https://rstudio.cloud/project/181856)on RStudio Cloud.
+
+![](images/how-1-file.png)
+
+Notice that the file contains three types of content:
+
+* An (optional) YAML header surrounded by ```---```s
+* R code chunks surrounded by `` ``` `` s
+* text mixed with simple text formatting
+
+## A Notebook Interface
